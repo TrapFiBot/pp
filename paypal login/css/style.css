@@ -1,0 +1,76 @@
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+    width: 100%;
+    background: #00429C;
+    min-height: 900px;
+    overflow: hidden;
+
+}
+
+.wrap .wrap-logo {
+background: white;
+width: 100%;
+min-height: 400px;
+position: relative;
+}
+
+.wrap .wrap-logo img {
+    margin-left: 35%;
+    margin-top: 80px;
+}
+
+.wrap .content {
+width: 340px;
+min-height: 300px;
+border-radius: 20px;
+background: white;
+border: 2px solid #EDEDED;
+position: absolute;
+left: 40%;
+top: 30%;
+z-index: 99;
+}
+
+.wrap .content .input-form {
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    font-size: 14px;
+    border: 1px solid #00429C;
+
+}
+
+.wrap .content .input-form:nth-child(1) {
+    margin-top: 35px;
+}
+
+.wrap .content .btn-login {
+    background: #00429C;
+    border-radius: 10px;
+    color: white;
+    width: 84%;
+    border: 0;
+    margin-left: 20px;
+    height: 50px;
+    font-size: 16px;
+}
+.wrap .btn-forget {
+width: 100%;
+min-height: 500px;
+margin-top: 200px;
+
+}
+
+.wrap .btn-forget a {
+    margin-left: 46.5%;
+    text-decoration: underline;
+    color: white !important;
+}
